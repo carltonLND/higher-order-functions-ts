@@ -1,5 +1,5 @@
 function zipWith<T, U, R>(
-  combinerFn: (element1: T, element2: U) => R,
+  combinerFn: (ele1: T, ele2: U) => R,
   arr1: T[],
   arr2: U[]
 ): R[] {
