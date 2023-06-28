@@ -1,7 +1,7 @@
-function map<T, U>(arr: T[], cb: (val: T) => U): U[] {
+function map<T, U>(inputArray: T[], predicateFn: (element: T) => U): U[] {
   const outputArr = [];
-  for (const ele of arr) {
-    outputArr.push(cb(ele));
+  for (const element of inputArray) {
+    outputArr.push(predicateFn(element));
   }
 
   return outputArr;
