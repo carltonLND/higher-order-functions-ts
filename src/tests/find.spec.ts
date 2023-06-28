@@ -1,4 +1,4 @@
-import find from "./find";
+import find from "../find";
 
 test("find returns the correct number in a number array", () => {
   const testFn = (num: number) => {

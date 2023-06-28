@@ -1,4 +1,4 @@
-import partition from "./partition";
+import partition from "../partition";
 
 test("returns tuple of 2 arrays, first with passing elements, second with failing", () => {
   const testFn = (num: number) => {

@@ -1,4 +1,4 @@
-import every from "./every";
+import every from "../every";
 
 test("returns true if every element passes the test fn", () => {
   const testFn = (num: number) => {

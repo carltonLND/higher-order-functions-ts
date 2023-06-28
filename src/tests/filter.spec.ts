@@ -1,4 +1,4 @@
-import filter from "./filter";
+import filter from "../filter";
 
 test("returns array of all nums in inputArray that are over 3", () => {
   const testFn = (num: number) => {
